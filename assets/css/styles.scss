@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 .page {
   @include breakpoint($large) {
@@ -12,24 +13,43 @@
     width: calc(100% - #{$right-sidebar-width});
     padding-right: calc(#{$right-sidebar-width} / 2);
   }
+}
 
-  .page__inner-wrap {
-    float: left;
-    margin-top: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    clear: both;
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 12px;
 
-    .page__content,
-    .page__meta,
-    .page__share {
-      position: relative;
-      float: left;
-      margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      clear: both;
-    }
+  @include breakpoint($medium) {
+    font-size: 12px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 12px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 12px;
+  }
+}
+
+.site-title {
+    font-size: $type-size-3;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.3em;
+}
+.sidebar .author__name {
+  font-size: $type-size-4;
+}
+.sidebar {
+  p,
+  li {
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    line-height: 1.5;
   }
 }
