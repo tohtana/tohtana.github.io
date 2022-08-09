@@ -1,0 +1,115 @@
+skills:
+  - name: Programming languages
+  - keywords: C
+education:
+  - period: 2005.10-2009.3
+    institution: Department of Social Informatics, Kyoto University
+    degree: Ph.D., Information Science
+    supervisor: Professor Toru Ishida
+    thesis: "Web Service Supervision: Meta-level Architecture for Controlling Composite Web Services"
+  - period: 2004.4-2005.9
+    institution: Department of Social Informatics, Kyoto University
+    degree: Master of Informatics
+    supervisor: Professor Toru Ishida
+    thesis: "Ontology Extraction Based on Interpretations of Table Structures"
+  - period: 2000.4-2004.3
+    institution: Department of Information Science, Kyoto University.
+    degree: Bachelor of Engineering
+    supervisor: Professor Toru Ishida
+    thesis: "Impression Ontology for Supporting Information Retrieval"
+projects:
+    - name: RaNNC
+      full_name: Rapid Neural Network Connector
+      url: https://github.com/nict-wisdom/rannc
+      description:
+        - <font color="red"><strong>Won first place at PyTorch Annual Hackathon 2021</strong></font> (PyTorch Developer Tools & Libraries category) (<a href="https://pytorch2021.devpost.com/">PyTorch Annual Hackathon 2021</a> <a href="https://devpost.com/software/rannc-rapid-neural-network-connector">Project page</a>, <a href="https://www.nict.go.jp/en/press/2021/12/08-1.html">Press release</a>)
+        - <font color="red"><strong>Won first prize at Advanced Technology Award</strong></font> (Minister of Education, Culture, Sports, Science and Technology Award in Business and Industry category) (<a href="http://www.sankei-award.jp/sentan/jusyou/">Winners</a>, <a href="https://www.sankei.com/article/20220609-GX3QHEI4VRN3ZCJ4GNS2HDIWOM/">Sankei Newspaper</a>)
+        - RaNNC is a middleware to train very large-scale neural networks and automatically partitions neural networks for the hybrid data/model parallelism.
+        - We confirmed that we could train a BERT model with 100 billion parameters without any manual tuning for parallelization.
+        - Unlike existing frameworks like Megatron-LM and Mesh-TensorFlow, RaNNC can train models written for PyTorch without any changes for model parallelism.
+        - See the <a href="https://github.com/nict-wisdom/rannc">documents</a> and our IPDPS 2021 paper[<a href="https://arxiv.org/abs/2103.16063">preprint</a>] for the details.
+    - name: RaSC
+      full_name: Rapid Service Connector
+      url: https://alaginrc.nict.go.jp/rasc/en/index.html"
+      description:
+        - RaSC is middleware to easily wrap various command line programs as RPC services.
+        - We have used RaSC to orchestrate many NLP tools on hundreds of compute nodes.
+        - See our <a href="https://ieeexplore.ieee.org/document/7967199">IPDPS 2017 paper</a> for the details. (The source code available on GitHub is a very old version, which does not offer most of advanced features described in the paper.)
+      applications:
+        - <a href="https://wisdom-nict.jp/">WISDOM X</a> (question answering system using 6 billion Web pages as the knowledge source. Many BERT models are also used inside.)
+        - <a href="http://disaana.jp/">DISAANA</a> (disaster information analyzer)
+        - <a href="https://disaana.jp/d-summ/">D-SUMM</a> (disaster-information summarizer)
+        - WEKDA (WEb-based Knowledge Disseminating dialog Agent)
+        - <a href="https://www.youtube.com/watch?v=gCUrC3f9-Go">MICSUS</a> (multimodal interactive care support system)
+conferences:
+  - "Masahiro Tanaka, Kenjiro Taura, Toshihiro Hanawa and Kentaro Torisawa, Automatic Graph Partitioning for Very Large-scale Deep Learning, In the Proceedings of 35st IEEE International Parallel and Distributed Processing Symposium (IPDPS 2021), pp. 1004-1013, Portland, Oregon USA, May, 2021."
+  - "Ikki Fujiwara, Masahiro Tanaka, Kenjiro Taura and Kentaro Torisawa, Effectiveness of Moldable and Malleable Scheduling in Deep Learning Tasks, In the Proceedings of 24th International Conference on Parallel and Distributed Systems (ICPADS 2018), pp.389--398, Sentosa, Singapore, December, 2018."
+  - "Masahiro Tanaka, Kenjiro Taura, Kentaro Torisawa, Autonomic Resource Management for Program Orchestration in Large-scale Data Analysis,In the Proceedings of 31st IEEE International Parallel and Distributed Processing Symposium (IPDPS 2017), pp. 1088-1097,  Orland, Florida, USA, May, 2017."
+  - "Canasai Kruengkrai, Kentaro Torisawa, Chikara Hashimoto, Julien Kloetzer, Jong-Hoon Oh and Masahiro Tanaka, Improving Event Causality Recognition with Multiple Background Knowledge Sources using Multi-Column Convolutional Neural Networks, In the Proceedings of the 31st AAAI Conference on Artificial Intelligence (AAAI-17), pp.   3466-3473, San Francisco, California, USA, Feb, 2017."
+  - "Masahiro Tanaka, Kenjiro Taura and Kentaro Torisawa, Low Latency and Resource-aware Program Composition for Large-scale Data Analysis, In the Proceedings of the 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid 2016), pp. 325-330, 2016."
+  - "Jong-Hoon Oh, Kentaro Torisawa, Chikara Hashimoto, Ryu Iida, Masahiro Tanaka and Julien Kloetzer, A Semi-Supervised Learning Approach to Why-Question Answering, In the Proceedings of the 30th AAAI Conference on Artificial Intelligence (AAAI-16), pp. 3022-3029, 2016."
+  - "Masahiro Tanaka, Yohei Murakami. An Efficient Algorithm for Strategy-proof Service Composition, <i>10th IEEE International Conference on Services Computing (SCC 2013)</i>, pp. 105-112, 2013."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin, and Toru Ishida. A Service Binding Framework for Open Environment, <i>9th IEEE International Conference on Services Computing (SCC 2012)</i>, pp. 226-233, 2012."
+  - "Masahiro Tanaka, Masahiro Tanaka, Yohei Murakami, and Koji Zettsu. Data-intensive Services for Large-scale Archive Access, <i>9th IEEE International Conference on Services Computing (SCC 2012)</i>, pp. 617-624, 2012."
+  - "Yohei Murakami, Masahiro Tanaka, Donghui Lin, and Toru Ishida. Service Grid Federation Architecture for Heterogeneous Domain, <i>9th IEEE International Conference on Services Computing (SCC 2012)</i>, pp. 539-546, 2012."
+  - "Yohei Murakami,  Masahiro Tanaka, Arif Bramantoro, and Koji Zettsu. Data-Centered Service Composition for Information Analysis, <i>9th IEEE International Conference on Services Computing (SCC 2012)</i>, pp. 602-608, 2012."
+  - "Arif Bramantoro, Toru Kamada, Masahiro Tanaka, Yohei Murakami, Koji Zettsu. Towards Service Atomization for Analyzing Information, <i>10th IEEE International Conference on Web Service (ICWS 2012) (Work In Progress)</i>, pp. 676 - 677, 2012."
+  - "Toru Ishida, Yohei Murakami, Donghui Lin, Masahiro Tanaka and Rieko Inaba, Language Grid Revisited: An Infrastructure for Intercultural Collaboration, Advances on Practical Applications of Agents and Multi-Agent Systems, 10th International Conference on Practical Applications of Agents and Multi-Agent Systems, pp. 1-16, 2012. (keynote)"
+  - "Donghui Lin, Toru Ishida, Yohei Murakami and Masahiro Tanaka, Improving Service Processes with the Crowds, <i>9th International Conference on Service Oriented Computing (ICSOC 2011)</i>, 2011."
+  - "Yohei Murakami, Masahiro Tanaka, Donghui Lin, and Toru  Ishida, &quot;Open-Source Platform for Language Service Sharing,&quot; Language  Resources, Technology and Services in the Sharing Paradigm Workshop in  conjunction with the 5th International Joint Conference on Natural  Language Processing (IJCNLP2011), November, 2011."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin. A Service Execution Control Framework for Policy Enforcement, <i>8th International Conference on Service Oriented Computing (ICSOC 2010)</i>, pp. 108&ndash;121, 2010."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin. Language Grid Toolbox: Open Source Multi-language Community Site, <i>4th International Universal Communication Symposium (IUCS 2010)</i>, pp. 104-110, 2010."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin and Toru Ishida. Service Supervision for Service-oriented Collective Intelligence, <i>7th IEEE International Conference on Services Computing (SCC 2010)</i>, pp. 154-161, 2010."
+  - "Donghui Lin, Yohei Murakami and Masahiro Tanaka. Dynamic Service Invocation Control in Service Composition Environments, <i>7th IEEE International Conference on Services Computing (SCC 2010)</i>, pp. 25-32, 2010."
+  - "Donghui Lin, Yoshiaki Murakami, Toru Ishida, Yohei Murakami and Masahiro Tanaka. Composing Human and Machine Translation Services: Language Grid for Improving Localization Processes. <i>7th International Conference on Language Resources and Evaluation (LREC 2010)</i>, pp. 500-506, 2010."
+  - "Yohei Murakami, Donghui Lin,  Masahiro Tanaka, Takao Nakaguchi and Toru Ishida. Language Service Management with the Language Grid. <i>7th International Conference on Language Resources and Evaluation (LREC 2010)</i>, pp. 3526-3531, 2010."
+  - "Donghui Lin, Yoshiaki Murakami, Toru Ishida, Yohei Murakami, Masahiro Tanaka. Lessons Learned from Composing Web Services and Human Activities. <i>7th International Joint Conference on Service Oriented Computing (ICSOC2009)</i>, Industry Track, November, 2009."
+  - "Masahiro Tanaka, Toru Ishida, Yohei Murakami, and Donghui Lin. Service Supervision Patterns: Reusable Adaption of Composite Services. <i>First International Conference on Cloud Computing (CLOUDCOMP 2009)</i>, pp. 147-163, October, 2009."
+  - "Masahiro Tanaka, Toru Ishida, Yohei Murakami and Satoshi Morimoto. Service Supervision: Coordinating Web Services in Open Environment. <i>IEEE International Conference on Web Services (ICWS-09)</i>, pp. 238-245, 2009."
+  - "Masahiro Tanaka, Yohei Murakami and Toru Ishida. Towards Service Supervision for Public Web Services. <i>Asia-Pacific Services Computing Conference (IEEE APSCC 2008)</i>, pp. 536-541, 2008."
+  - "Masaki Gotou, Hirofumi Yamaki, Daisuke Yanagisawa, Masamitsu Ukai, Masahiro Tanaka and Toru Ishida, Resource Sharing among Multilingual Expression Services. <i>Asia-Pacific Services Computing Conference (IEEE APSCC 2008)</i>, pp. 470-475, 2008."
+  - "Masahiro Tanaka and Toru Ishida. Predicting and Learning Executability of Composite Web Services, <i>6th International Conference on Service Oriented Computing (ICSOC 2008)</i>, pp. 572&ndash;578, 2008."
+  - "Arif Bramantoro, Masahiro Tanaka, Yohei Murakami and Toru Ishida. A Hybrid Integrated Architecture for Language Service Composition. <i>IEEE International Conference on Web Services (ICWS-08)</i>, pp. 345-352, 2008."
+  - "Satoshi Sakai, Masaki Gotou, Masahiro Tanaka, Rieko Inaba, Yohei Murakami, Takashi Yoshino, Yoshihiko Hayashi, Yasuhiko Kitamura, Yumiko Mori, Toshiyuki Takasaki, Yoshie Naya, Aguri Shige––no, Shigeo Matsubara and Toru Ishida. Language Grid Association: Action Research on Supporting the Multicultural Society. <i>International   Conference on Informatics Education and Research for Knowledge-Circulating Society (ICKS-08)</i>, pp. 55-60, 2008."
+  - "Masahiro Tanaka and Toru Ishida. Ontology Extraction from Tables on the Web. <i>IEEE/IPSJ Symposium on Applications and the Internet (SAINT-06)</i>, pp.284-290, 2006."
+journals:
+  - Masahiro Tanaka and Yohei Murakami, Strategy-proof Pricing for Cloud Service Composition, IEEE Transactions on Cloud Computing, Vol. 4, No. 3, pp. 363-375, 2016.
+  - Donghui Lin, Toru Ishida, Yohei Murakami and Masahiro Tanaka, "QoS Analysis for Service Composition by Human and Web Services," IEICE Transactions on Information and Systems, Vol.E97-D, No.4, pp.762-769, 2014.
+  - Donghui Lin, Yohei Murakami and Masahiro Tanaka, &quot;Designing Dynamic Control Mechanisms for Service Invocation,&quot; Journal of Information Processing, Vol.19, pp.52-61, Feb. 2011.
+book_chapters:
+  - "Masahiro Tanaka, Toru Ishida, Yohei Murakami. Service Supervision for Runtime Service Management, Toru Ishida (eds.) Language Grid: Service-Oriented Collective Intelligence for Language Resource Interoperability. pp. 69-83, Cognitive Technologies Series, Springer, 2011."
+  - "Masahiro Tanaka, Rieko Inaba, Akiyo Nadamoto, Tomohiro Shigenobu, Intercultural Collaboration Tools Based on the Language Grid, Toru Ishida (eds.) Language Grid: Service-Oriented Collective Intelligence for Language Resource Interoperability. pp. 35-49, Cognitive Technologies Series, Springer, 2011."
+  - "Yohei Murakami, Donghui Lin, Masahiro Tanaka, Takao Nakaguchi and Toru Ishida, Service Grid Architecture, Toru Ishida (eds.) Language Grid: Service-Oriented Collective Intelligence for Language Resource Interoperability. pp. 19-34, Cognitive Technologies Series, Springer, 2011."
+journals_ja:
+  - "Toru Ishida, Yohei Murakami, Rieko Inaba, Donghui Lin, Masahiro Tanaka. Service-Oriented Collective Intelligence for Customized Multilingual Environments, IEICE Trans. D, Vol.J95-D, No.1, pp.2-10, 2012. (Invited Paper)"
+  - "Masahiro Tanaka and Toru Ishida. Predicting Executability of Composite Web Services. Information Processing Society of Japan (IPSJ) Journal, Vol.50, No. 2. pp. 701-708, 2009."
+  - "Masahiro Tanaka and Toru Ishida. Ontology Extraction Based on Interpretations of Table Structures. Information Processing Society of Japan (IPSJ) Journal, Vol. 47, No. 5, pp.1530-1537, 2006."
+  - "Sachiko Masaki, Masahiro Tanaka, Yohei Murakami, Toru Ishida. Agent-based Level Test Management System for Information Education. Journal of Japanese Society for Information and Systems in Education (JSiSE), Vol. 23, No. 1, pp.24-32, 2006."
+demos:
+  - "Junta Mizuno, Masahiro Tanaka, Kiyonori Ohtake, Jong-Hoon Oh, Julien Kloetzer, Chikara Hashimoto and Kentaro Torisawa, WISDOM X, DISAANA and D-SUMM: Large-scale NLP Systems for Analyzing Textual Big Data, In the Proceedings of the 26th International Conference on Computational Linguistics (COLING 2016) (Demo Track), 2016."
+  - "Masahiro Tanaka, Stijn De Saeger, Kiyonori Ohtake, Chikara Hashimoto, Makoto Hijiya, Hideaki Fujii and Kentaro Torisawa, WISDOM2013: A Large-scale Web Information Analysis System, In Companion Volume of the Proceedings of The 6th International Joint Conference on Natural Language Processing (IJCNLP 2013) (Demo Track), pp.45-48, Nagoya, Japan, October, 2013.        Donghui Lin, Masahiro Tanaka, Yohei Murakami and Toru Ishida, &quot;Language Grid Toolbox for Customized Multilingual Communities,&quot; the 2011 ACM Conference on Computer Supported Cooperative Work (CSCW 2011), March, 2011."
+  - "Mika Yasuoka, Toru Ishida, Yohei Murakami, Donghui Lin, Masahiro Tanaka, Rieko Inaba, Supporting Local Jargon in Multilingual Collaboration, the 2010 ACM Conference on Computer Supported Cooperative Work (CSCW 2010), February, 2010."
+  - "Yohei Murakami, Rieko Inaba, Lin Donghui,  Masahiro Tanaka, and Toru Ishida. Langrid ToolBox: Multilingual Collaboration Tool using Language Grid, 3rd International Universal Communication Symposium (IUCS 2009), December, 2009."
+workshop_ja:
+  - "Masahiro Tanaka，Yohei Murakami. Caching Mechanism for Hierarchical Service Composition，IEICE Technical Report, vol. 112, no. 178, SC2012-10, pp. 29-34, 2012."
+  - "Masahiro Tanaka，Yohei Murakami，Koji Zettsu. Towards Data-intensive Services for Large-scale Archive Access，IEICE Technical Report, vol. 111, no. 316, AI2011-30, pp. 7-12, 2011."
+  - "Yohei Murakami, Donghui Lin, Masahiro Tanaka. User-Controlled Language Service Composition ，IEICE Technical Report, vol. 111, no. 251, AI2011-16, pp. 39-44, 2011."
+  - "Yohei Murakami, Donghui Lin, Masahiro Tanaka, Toru Ishida. Service Grid Architecture for Service-Oriented Collective Intelligence. IEICE Technical Report, vol. 110, no. 428, AI2010-45, pp. 7-12, 2011."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin, Toru Ishida, Language Grid Toolbox: A Development Framework for Multilingual Communication Support Tools, Artificial Intelligence and Knowledge-Base Processing, IEICE Technical Report, vol. 110, no. 428, AI2010-46, pp. 13-18, 2011."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin, A Service Invocation Framework for Open Environment, PSJ SIGSE Winter Workshop, 2011."
+  - "Jun Matsuno, Masahiro Tanaka, Toru Ishida, Word Selection based on Semantic Relatedness and Context Similarity, Joint Agent Workshops and Symposium (JAWS2010) , 2010."
+  - "Masahiro Tanaka, Yohei Murakami, Donghui Lin, Toru Ishida, A Composite Service Control Framework for Service-oriented Collective Intelligence, The 9th Forum on Information Technology (FIT 2010), O-004, 2010."
+  - "Donghui Lin, Yohei Murakami, Masahiro Tanaka, User-Centered Dynamic Service Invocation Control, The 9th Forum on Information Technology (FIT 2010), O-003, 2010."
+  - "Masahiro Tanaka, Yohei Murakami, Rieko Inaba, Donghui Lin, Toru Ishida．Language Grid Toolbox: Open Source Software for Supporting Multilingual Communities. 72th IPSJ Annual Convention, 2010."
+  - "Donghui Lin, Yoshiaki Murakami, Toru Ishida, Yohei Murakami, Masahiro Tanaka．Improving Localization Processes with the Language Grid. 72th IPSJ Annual Convention, 2010."
+  - "Donghui Lin, Yoshiaki Murakami, Toru Ishida, Yohei Murakami, Masahiro Tanaka．Effects of Composing Human and Web Services. The 1st Meeting of IEICE Special Interest Group on Services Computing, 2009."
+  - "Masanobu Ishimatsu, Masahiro Tanaka, Toru Ishida. Semi-automatic Generation of Metadata from Language Resources in Table Formats. The 8th Forum on Information Technology (FIT 2009), RJ-003, pp．43-49, Seqptember, 2009. (FIT2009 Paper Award)"
+  - "Masahiro Tanaka and Toru Ishida. Ontology Extraction from Tables. The 19th Annual Conference of JSAI, 1A4-02, 2005."
+  - "Masahiro Tanaka and Toru Ishida. Ontology Generation from Table Form Data, The 9th Meeting of JSAI Special Interest Group on Semantic Web and Ontology. SIG-SWO-A404-05, 2005."
+awards:
+  - First prize at Advanced Technology Award</strong></font> (Minister of Education, Culture, Sports, Science and Technology Award in Business and Industry category) (<a href="http://www.sankei-award.jp/sentan/jusyou/">Winners</a>, <a href="https://www.sankei.com/article/20220609-GX3QHEI4VRN3ZCJ4GNS2HDIWOM/">Sankei Newspaper</a>)
+  - First place at <a href="https://pytorch2021.devpost.com/">PyTorch Annual Hackathon 2021</a> (PyTorch Developer Tools & Libraries category), 2021.
+  - <a href="http://www.tsushinbunka.org/pdf/maejima/h27kouseki.pdf">Maejima Hisoka Award</a>, 2016.
+  - <a href="http://www.mcfund.or.jp/mobilescience/award/no14.html#advanced-technology">Docomo Mobile Science Award</a>, 2015.
+  - <a href="https://blog.twitter.com/2014/twitter-datagrants-selections">Twitter DataGrants</a>, 2014"
+  - FIT2009 Paper Award, Masanobu Ishimatsu, Masahiro Tanaka, Toru Ishida. Semi-automatic Generation of Metadata from Language Resources in Table Formats. The 8th Forum on Information Technology (FIT 2009), RJ-003, pp．43-49, September, 2009.

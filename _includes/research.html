@@ -1,0 +1,23 @@
+{% assign projects = site.data.cv.projects %}
+
+<h2>Projects</h2>
+<ul>
+    {% for p in projects %}
+    <li><a href="{{ p.url }}">{{ p.name }}</a> ({{ p.full_name }})
+        <ul>
+            {% for desc in p.description %}
+            <li>{{ desc }}</li>
+            {% endfor %}
+            {% if p.applications %}
+            <li>{{ p.name }} is used for many large-scale information analysis systems including (all systems are for Japanese language):
+            <ul>
+                {% for app in p.applications %}
+                <li>{{ app }}</li>
+                {% endfor %}
+            </ul>
+            </li>
+            {% endif %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
