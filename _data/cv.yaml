@@ -22,25 +22,30 @@ projects:
       full_name: Rapid Neural Network Connector
       url: https://github.com/nict-wisdom/rannc
       description:
-        - <font color="red"><strong>Won first place at PyTorch Annual Hackathon 2021</strong></font> (PyTorch Developer Tools & Libraries category) (<a href="https://pytorch2021.devpost.com/">PyTorch Annual Hackathon 2021</a> <a href="https://devpost.com/software/rannc-rapid-neural-network-connector">Project page</a>, <a href="https://www.nict.go.jp/en/press/2021/12/08-1.html">Press release</a>)
-        - <font color="red"><strong>Won first prize at Advanced Technology Award</strong></font> (Minister of Education, Culture, Sports, Science and Technology Award in Business and Industry category) (<a href="http://www.sankei-award.jp/sentan/jusyou/">Winners</a>, <a href="https://www.sankei.com/article/20220609-GX3QHEI4VRN3ZCJ4GNS2HDIWOM/">Sankei Newspaper</a>)
-        - RaNNC is a middleware to train very large-scale neural networks and automatically partitions neural networks for the hybrid data/model parallelism.
-        - We confirmed that we could train a BERT model with 100 billion parameters without any manual tuning for parallelization.
-        - Unlike existing frameworks like Megatron-LM and Mesh-TensorFlow, RaNNC can train models written for PyTorch without any changes for model parallelism.
-        - See the <a href="https://github.com/nict-wisdom/rannc">documents</a> and our IPDPS 2021 paper[<a href="https://arxiv.org/abs/2103.16063">preprint</a>] for the details.
+        awards:
+          - summary: <font color="red"><strong>Won first place at PyTorch Annual Hackathon 2021</strong></font> (PyTorch Developer Tools & Libraries category) (<font color="red"><strong>1,947 participants from 110 countries</strong></font>, 65 submissions) (<a href="https://pytorch2021.devpost.com/">PyTorch Annual Hackathon 2021</a> <a href="https://devpost.com/software/rannc-rapid-neural-network-connector">Project page</a>, <a href="https://www.nict.go.jp/en/press/2021/12/08-1.html">Press release</a>)
+          - summary: <font color="red"><strong>Won first prize at Advanced Technology Award</strong></font> (Minister of Education, Culture, Sports, Science and Technology Award in Business and Industry category) (<a href="http://www.sankei-award.jp/sentan/jusyou/">Winners of the award</a>, the <a href="https://www.sankei.com/article/20220609-GX3QHEI4VRN3ZCJ4GNS2HDIWOM/">announcement of winners</a>, and news articles about  <a href="https://www.sankei.com/article/20220711-5KAPIGBP3BLV7FS7WLY6FXNYLE/">our work</a> and the <a href="https://www.sankei.com/article/20220714-DPGDQEXMKNPFPDIWCV2FOCH7UA/">ceremony</a>. (in Japanese)
+        items:
+          - RaNNC is a middleware to train very large-scale neural networks and automatically partitions neural networks for the hybrid data/model parallelism.
+          - We confirmed that we could train a BERT model with 100 billion parameters without any manual tuning for parallelization.
+          - Unlike existing frameworks like Megatron-LM and Mesh-TensorFlow, RaNNC can train models written for PyTorch without any changes for model parallelism.
+          - See the <a href="https://github.com/nict-wisdom/rannc">documents</a> and our IPDPS 2021 paper[<a href="https://arxiv.org/abs/2103.16063">preprint</a>] for the details.
     - name: RaSC
       full_name: Rapid Service Connector
       url: https://alaginrc.nict.go.jp/rasc/en/index.html"
       description:
-        - RaSC is middleware to easily wrap various command line programs as RPC services.
-        - We have used RaSC to orchestrate many NLP tools on hundreds of compute nodes.
-        - See our <a href="https://ieeexplore.ieee.org/document/7967199">IPDPS 2017 paper</a> for the details. (The source code available on GitHub is a very old version, which does not offer most of advanced features described in the paper.)
+        items:
+          - RaSC is middleware to easily wrap various command line programs as RPC services.
+          - We have used RaSC to orchestrate many NLP tools on hundreds of compute nodes.
+          - See our <a href="https://ieeexplore.ieee.org/document/7967199">IPDPS 2017 paper</a> for the details. (The source code available on GitHub is a very old version, which does not offer most of advanced features described in the paper.)
       applications:
-        - <a href="https://wisdom-nict.jp/">WISDOM X</a> (question answering system using 6 billion Web pages as the knowledge source. Many BERT models are also used inside.)
-        - <a href="http://disaana.jp/">DISAANA</a> (disaster information analyzer)
-        - <a href="https://disaana.jp/d-summ/">D-SUMM</a> (disaster-information summarizer)
-        - WEKDA (WEb-based Knowledge Disseminating dialog Agent)
-        - <a href="https://www.youtube.com/watch?v=gCUrC3f9-Go">MICSUS</a> (multimodal interactive care support system)
+        summary: RaSC is used for many large-scale information analysis systems including (all systems are for Japanese language)
+        list: 
+          - <a href="https://wisdom-nict.jp/">WISDOM X</a> (question answering system using 6 billion Web pages as the knowledge source. Many BERT models are also used inside.)
+          - <a href="http://disaana.jp/">DISAANA</a> (disaster information analyzer)
+          - <a href="https://disaana.jp/d-summ/">D-SUMM</a> (disaster-information summarizer)
+          - WEKDA (WEb-based Knowledge Disseminating dialog Agent)
+          - <a href="https://www.youtube.com/watch?v=gCUrC3f9-Go">MICSUS</a> (multimodal interactive care support system)
 conferences:
   - "Masahiro Tanaka, Kenjiro Taura, Toshihiro Hanawa and Kentaro Torisawa, Automatic Graph Partitioning for Very Large-scale Deep Learning, In the Proceedings of 35st IEEE International Parallel and Distributed Processing Symposium (IPDPS 2021), pp. 1004-1013, Portland, Oregon USA, May, 2021."
   - "Ikki Fujiwara, Masahiro Tanaka, Kenjiro Taura and Kentaro Torisawa, Effectiveness of Moldable and Malleable Scheduling in Deep Learning Tasks, In the Proceedings of 24th International Conference on Parallel and Distributed Systems (ICPADS 2018), pp.389--398, Sentosa, Singapore, December, 2018."

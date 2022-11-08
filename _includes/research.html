@@ -5,13 +5,18 @@
     {% for p in projects %}
     <li><a href="{{ p.url }}">{{ p.name }}</a> ({{ p.full_name }})
         <ul>
-            {% for desc in p.description %}
+            {% if p.description.awards %}
+                {% for aw in p.description.awards %}
+                    <li>{{ aw.summary }}</li>
+                {% endfor %}
+            {% endif %}
+            {% for desc in p.description.items %}
             <li>{{ desc }}</li>
             {% endfor %}
             {% if p.applications %}
-            <li>{{ p.name }} is used for many large-scale information analysis systems including (all systems are for Japanese language):
+            <li>{{ p.applications.summary }}
             <ul>
-                {% for app in p.applications %}
+                {% for app in p.applications.list %}
                 <li>{{ app }}</li>
                 {% endfor %}
             </ul>
