@@ -100,7 +100,7 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "https://direct.nict.go.jp/members/mtnk/mtnk_hu3d03a01dcc18bc5be0e67db3d8d209a6_126348_240x320_fill_q75_box_smart1.jpg"
   bio              : "Researcher in Distributed Computing"
-  location         : "Mie, Japan"
+  location         : "Redmond, WA, United States"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
