@@ -3,7 +3,7 @@
 <h2>Projects</h2>
 <ul>
     {% for p in projects %}
-    <li><a href="{{ p.url }}">{{ p.name }}</a> ({{ p.full_name }})
+    <li><a href="{{ p.url }}">{{ p.name }}</a>{% if p.full_name %} ({{ p.full_name }}){% endif %}
         <ul>
             {% if p.description.awards %}
                 {% for aw in p.description.awards %}

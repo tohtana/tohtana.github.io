@@ -18,6 +18,32 @@ education:
     supervisor: Professor Toru Ishida
     thesis: "Impression Ontology for Supporting Information Retrieval"
 projects:
+    - name: DeepSpeed
+      full_name: Deep learning optimization library
+      url: https://github.com/deepspeedai/DeepSpeed
+      description:
+        items:
+          - DeepSpeed is an optimization library for deep-learning training and inference with <strong>38k&nbsp;GitHub&nbsp;stars</strong> and <strong>16M+ downloads</strong>. I serve on the <a href="https://github.com/deepspeedai/DeepSpeed/blob/master/COMMITTERS.md">Technical Steering Committee</a> and developed the following key components.
+          - <strong>DeepCompile</strong> – compiler-level optimization for distributed training; yields <strong>1.5×</strong> throughput (up to <strong>7×</strong> in memory-limited scenarios) without code changes. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/deepcompile/README.md">Blog</a>, <a href="https://arxiv.org/abs/2504.09983">Paper</a>)
+          - <strong>DeepSpeed-FastGen</strong> – high-throughput inference serving with integrated batch scheduling; now adopted by vLLM and other systems. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/deepspeed-fastgen/README.md">Blog</a>, <a href="https://arxiv.org/abs/2401.08671">Paper</a>)
+          - <strong>DeepSpeed-Ulysses</strong> – sequence-parallel training achieving <strong>2.5×</strong> speed-up on sequences <strong>4×</strong> longer than previous SOTA. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/deepspeed-ulysses/README.md">Blog</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3662158.3662806">Paper</a>)
+          - <strong>FPDT</strong> (Fully Pipelined Distributed Transformer) – memory-efficient long-sequence training; trains a 7 B-parameter LLM on 2 M-token sequences with just 4 GPUs. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/ulysses-offload/README.md">Blog</a>, <a href="https://openreview.net/forum?id=NHwZ039A90">Paper</a>)
+          - <strong>DeepSpeed-Chat</strong> – open-source framework for training large-scale chat models; forked by projects such as OpenRLHF. (<a href="https://github.com/deepspeedai/DeepSpeed/tree/master/blogs/deepspeed-chat">Blog</a>, <a href="https://arxiv.org/abs/2308.01320">Paper</a>)
+
+    - name: Phi-3
+      url: https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/
+      description:
+        items:
+          - Phi-3 is a family of small yet highly capable language models designed for on-device and resource-constrained inference.
+          - See the blog&nbsp;<a href="https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/">announcement</a> and technical report&nbsp;<a href="https://arxiv.org/abs/2404.14219">arXiv&nbsp;2404.14219</a> for details.
+
+    - name: MAI-DS-R1
+      url: https://techcommunity.microsoft.com/blog/machinelearningblog/introducing-mai-ds-r1/4405076
+      description:
+        items:
+          - MAI-DS-R1 is a Microsoft-fine-tuned version of DeepSeek-R1, enhanced for safety, factuality, and responsiveness on sensitive topics.
+          - See the <a href="https://techcommunity.microsoft.com/blog/machinelearningblog/introducing-mai-ds-r1/4405076">Blog post</a> for details.
+
     - name: RaNNC
       full_name: Rapid Neural Network Connector
       url: https://github.com/nict-wisdom/rannc
@@ -30,6 +56,7 @@ projects:
           - We confirmed that we could train a BERT model with 100 billion parameters without any manual tuning for parallelization.
           - Unlike existing frameworks like Megatron-LM and Mesh-TensorFlow, RaNNC can train models written for PyTorch without any changes for model parallelism.
           - See the <a href="https://github.com/nict-wisdom/rannc">documents</a> and our IPDPS 2021 paper[<a href="https://arxiv.org/abs/2103.16063">preprint</a>] for the details.
+          
     - name: RaSC
       full_name: Rapid Service Connector
       url: https://alaginrc.nict.go.jp/rasc/en/index.html"
@@ -47,6 +74,17 @@ projects:
           - WEKDA (WEb-based Knowledge Disseminating dialog Agent)
           - <a href="https://www.youtube.com/watch?v=gCUrC3f9-Go">MICSUS</a> (multimodal interactive care support system)
 conferences:
+  - "Masahiro Tanaka, Du Li, Umesh Chand, Ali Zafar, Haiying Shen and Olatunji Ruwase, DeepCompile: A Compiler-Driven Approach to Optimizing Distributed Deep Learning Training, arXiv preprint arXiv:2504.09983, 2025."
+  - "Haiying Shen, Tanmoy Sen, Masahiro Tanaka, Mitigating KV Cache Competition to Enhance User Experience in LLM Inference, arXiv preprint arXiv:2503.13773, 2025."
+  - "Liyuan Liu, Young Jin Kim, Shuohang Wang, Chen Liang, Yelong Shen, Hao Cheng, Xiaodong Liu, Masahiro Tanaka, Xiaoxia Wu and Wenxiang Hu, GRIN: Gradient-Informed MoE, arXiv preprint arXiv:2409.12136, 2024."
+  - "Jinghan Yao, Sam Ade Jacobs, Masahiro Tanaka, Olatunji Ruwase, Aamir Shafi, Hari Subramoni and Dhabaleswar K. Panda, Training Ultra-Long-Context Language Models with Fully Pipelined Distributed Transformer, arXiv preprint arXiv:2408.16978, 2024."
+  - "Xinyu Lian, Sam Ade Jacobs, Lev Kurilenko, Masahiro Tanaka, Stas Bekman, Olatunji Ruwase and Minjia Zhang, Universal Checkpointing: Efficient and Flexible Checkpointing for Large-Scale Distributed Training, arXiv preprint arXiv:2406.18820, 2024."
+  - "Sam Ade Jacobs, Masahiro Tanaka, Chengming Zhang, Minjia Zhang, Reza Yazdani Aminadabi, Shuaiwen Leon Song, Samyam Rajbhandari and Yuxiong He, System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models, Proceedings of the 43rd ACM Symposium on Principles of Distributed Computing (PODC 2024), pp. 121-130, 2024."
+  - "Marah Abdin, Jyoti Aneja, Hany Awadalla, Ahmed Awadallah, Ammar Ahmad Awan, Nguyen Bach, Amit Bahree, Arash Bakhtiari, Jianmin Bao, Harkirat Behl, <em>et al.</em>, Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone, arXiv preprint arXiv:2404.14219, 2024."
+  - "Connor Holmes, Masahiro Tanaka, Michael Wyatt, Ammar Ahmad Awan, Jeff Rasley, Samyam Rajbhandari, Reza Yazdani Aminabadi, Heyang Qin, Arash Bakhtiari and Lev Kurilenko, DeepSpeed-FastGen: High-Throughput Text Generation for LLMs via MII and DeepSpeed-Inference, arXiv preprint arXiv:2401.08671, 2024."
+  - "Shuaiwen Leon Song, Bonnie Kruft, Minjia Zhang, Conglong Li, Shiyang Chen, Chengming Zhang, Masahiro Tanaka, Xiaoxia Wu, Jeff Rasley and Ammar Ahmad Awan, DeepSpeed4Science Initiative: Enabling Large-Scale Scientific Discovery through Sophisticated AI System Technologies, arXiv preprint arXiv:2310.04610, 2023."
+  - "Sam Ade Jacobs, Masahiro Tanaka, Chengming Zhang, Minjia Zhang, Shuaiwen Leon Song, Samyam Rajbhandari and Yuxiong He, DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models, arXiv preprint arXiv:2309.14509, 2023."
+  - "Zhewei Yao, Reza Yazdani Aminabadi, Olatunji Ruwase, Samyam Rajbhandari, Xiaoxia Wu, Ammar Ahmad Awan, Jeff Rasley, Minjia Zhang, Conglong Li, Connor Holmes, DeepSpeed-Chat: Easy, Fast and Affordable RLHF Training of ChatGPT-like Models at All Scales, arXiv preprint arXiv:2308.01320, 2023."
   - "Masahiro Tanaka, Kenjiro Taura, Toshihiro Hanawa and Kentaro Torisawa, Automatic Graph Partitioning for Very Large-scale Deep Learning, In the Proceedings of 35st IEEE International Parallel and Distributed Processing Symposium (IPDPS 2021), pp. 1004-1013, Portland, Oregon USA, May, 2021."
   - "Ikki Fujiwara, Masahiro Tanaka, Kenjiro Taura and Kentaro Torisawa, Effectiveness of Moldable and Malleable Scheduling in Deep Learning Tasks, In the Proceedings of 24th International Conference on Parallel and Distributed Systems (ICPADS 2018), pp.389--398, Sentosa, Singapore, December, 2018."
   - "Masahiro Tanaka, Kenjiro Taura, Kentaro Torisawa, Autonomic Resource Management for Program Orchestration in Large-scale Data Analysis,In the Proceedings of 31st IEEE International Parallel and Distributed Processing Symposium (IPDPS 2017), pp. 1088-1097,  Orland, Florida, USA, May, 2017."
