@@ -1,4 +1,14 @@
 {% assign projects = site.data.cv.projects %}
+{% assign employment = site.data.cv.employment %}
+
+{% if employment %}
+<h2>Employment</h2>
+<ul>
+    {% for e in employment %}
+    <li><em>{{ e.period }}</em> {{ e.role }} at <a href="{{ e.url }}">{{ e.organization }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
 
 <h2>Projects</h2>
 <ul>

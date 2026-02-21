@@ -99,7 +99,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "mtanaka.jpg"
-  bio              : "Researcher in Distributed Computing"
+  bio              : "Software Engineer at Anyscale"
   location         : "Redmond, WA, United States"
   links:
     - label: "GitHub"

@@ -17,6 +17,15 @@ education:
     degree: Bachelor of Engineering
     supervisor: Professor Toru Ishida
     thesis: "Impression Ontology for Supporting Information Retrieval"
+employment:
+  - period: Jul 2025 - Present
+    organization: Anyscale
+    role: Software Engineer
+    url: https://www.anyscale.com/
+  - period: Dec 2022 - Jul 2025
+    organization: Microsoft (DeepSpeed)
+    role: Principal Researcher
+    url: https://www.deepspeed.ai/
 projects:
     - name: DeepSpeed
       full_name: Deep learning optimization library
@@ -74,11 +83,14 @@ projects:
           - WEKDA (WEb-based Knowledge Disseminating dialog Agent)
           - <a href="https://www.youtube.com/watch?v=gCUrC3f9-Go">MICSUS</a> (multimodal interactive care support system)
 conferences:
+  - "Ahan Gupta, Zhihao Wang, Neel Dani, Masahiro Tanaka, Olatunji Ruwase and Minjia Zhang, AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism, In the Proceedings of the International Conference on Learning Representations (ICLR 2026), 2026."
+  - "Xinyu Lian, Masahiro Tanaka, Olatunji Ruwase and Minjia Zhang, SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips, In the Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2026), 2026."
+  - "Xinyu Lian, Sam Ade Jacobs, Lev Kurilenko, Masahiro Tanaka, Stas Bekman, Olatunji Ruwase and Minjia Zhang, Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism, Proceedings of the 2025 USENIX Annual Technical Conference (USENIX ATC '25), 2025."
+  - "Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Masahiro Tanaka, Olatunji Ruwase, Dong Li and Yue Cheng, ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates, arXiv preprint arXiv:2505.12242, 2025."
   - "Masahiro Tanaka, Du Li, Umesh Chand, Ali Zafar, Haiying Shen and Olatunji Ruwase, DeepCompile: A Compiler-Driven Approach to Optimizing Distributed Deep Learning Training, arXiv preprint arXiv:2504.09983, 2025."
   - "Haiying Shen, Tanmoy Sen, Masahiro Tanaka, Mitigating KV Cache Competition to Enhance User Experience in LLM Inference, arXiv preprint arXiv:2503.13773, 2025."
   - "Liyuan Liu, Young Jin Kim, Shuohang Wang, Chen Liang, Yelong Shen, Hao Cheng, Xiaodong Liu, Masahiro Tanaka, Xiaoxia Wu and Wenxiang Hu, GRIN: Gradient-Informed MoE, arXiv preprint arXiv:2409.12136, 2024."
   - "Jinghan Yao, Sam Ade Jacobs, Masahiro Tanaka, Olatunji Ruwase, Aamir Shafi, Hari Subramoni and Dhabaleswar K. Panda, Training Ultra-Long-Context Language Models with Fully Pipelined Distributed Transformer, arXiv preprint arXiv:2408.16978, 2024."
-  - "Xinyu Lian, Sam Ade Jacobs, Lev Kurilenko, Masahiro Tanaka, Stas Bekman, Olatunji Ruwase and Minjia Zhang, Universal Checkpointing: Efficient and Flexible Checkpointing for Large-Scale Distributed Training, arXiv preprint arXiv:2406.18820, 2024."
   - "Sam Ade Jacobs, Masahiro Tanaka, Chengming Zhang, Minjia Zhang, Reza Yazdani Aminadabi, Shuaiwen Leon Song, Samyam Rajbhandari and Yuxiong He, System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models, Proceedings of the 43rd ACM Symposium on Principles of Distributed Computing (PODC 2024), pp. 121-130, 2024."
   - "Marah Abdin, Jyoti Aneja, Hany Awadalla, Ahmed Awadallah, Ammar Ahmad Awan, Nguyen Bach, Amit Bahree, Arash Bakhtiari, Jianmin Bao, Harkirat Behl, <em>et al.</em>, Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone, arXiv preprint arXiv:2404.14219, 2024."
   - "Connor Holmes, Masahiro Tanaka, Michael Wyatt, Ammar Ahmad Awan, Jeff Rasley, Samyam Rajbhandari, Reza Yazdani Aminabadi, Heyang Qin, Arash Bakhtiari and Lev Kurilenko, DeepSpeed-FastGen: High-Throughput Text Generation for LLMs via MII and DeepSpeed-Inference, arXiv preprint arXiv:2401.08671, 2024."
