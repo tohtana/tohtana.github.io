@@ -26,6 +26,10 @@ employment:
     organization: Microsoft (DeepSpeed)
     role: Principal Researcher
     url: https://www.deepspeed.ai/
+  - period: Apr 2009 - Nov 2022
+    organization: National Institute of Information and Communications Technology (NICT)
+    role: Senior Researcher
+    url: https://www.nict.go.jp/en/
 projects:
     - name: DeepSpeed
       full_name: Deep learning optimization library
