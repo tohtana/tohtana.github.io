@@ -5,7 +5,7 @@
 <h2>Employment</h2>
 <ul>
     {% for e in employment %}
-    <li><em>{{ e.period }}</em> {{ e.role }} at <a href="{{ e.url }}">{{ e.organization }}</a></li>
+    <li><em>{{ e.period }}</em> {% if e.role %}{{ e.role }} at {% endif %}{% if e.url %}<a href="{{ e.url }}">{{ e.organization }}</a>{% else %}{{ e.organization }}{% endif %}</li>
     {% endfor %}
 </ul>
 {% endif %}

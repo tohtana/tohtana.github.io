@@ -42,6 +42,10 @@ ul li,
 ol li {
   margin-bottom: 0.3em;
 }
+.award-highlight,
+.award-highlight a {
+  color: red;
+}
 .sidebar .author__name {
   font-size: $type-size-4;
 }

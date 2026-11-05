@@ -18,7 +18,9 @@ education:
     supervisor: Professor Toru Ishida
     thesis: "Impression Ontology for Supporting Information Retrieval"
 employment:
-  - period: Jul 2025 - Present
+  - period: Sep 2026 - Present
+    organization: Stealth startup
+  - period: Jul 2025 - Aug 2026
     organization: Anyscale
     role: Software Engineer
     url: https://www.anyscale.com/
@@ -35,8 +37,11 @@ projects:
       full_name: Deep learning optimization library
       url: https://github.com/deepspeedai/DeepSpeed
       description:
+        awards:
+          - summary: <span class="award-highlight">I received the <strong><a href="https://pytorch.org/contributor-awards/">2026 PyTorch Foundation Contributor Award</a></strong> in the <strong>Innovator</strong> category for my work on DeepSpeed.</span>
         items:
-          - DeepSpeed is an optimization library for deep-learning training and inference with <strong>38k&nbsp;GitHub&nbsp;stars</strong> and <strong>16M+ downloads</strong>. I serve on the <a href="https://github.com/deepspeedai/DeepSpeed/blob/master/COMMITTERS.md">Technical Steering Committee</a> and developed the following key components.
+          - DeepSpeed is a de facto standard library for distributed deep learning and is used to train frontier-scale models. As of November 2026, it has <strong>43K+ GitHub stars</strong>, <a href="https://pypistats.org/packages/deepspeed">1M+ monthly PyPI downloads</a>, and <a href="https://github.com/deepspeedai/DeepSpeed/network/dependents">15,000+ dependent repositories</a>.
+          - I serve on the <a href="https://github.com/deepspeedai/DeepSpeed/blob/master/COMMITTERS.md">Technical Steering Committee</a> and developed the following DeepSpeed components.
           - <strong>DeepCompile</strong> – compiler-level optimization for distributed training; yields <strong>1.5×</strong> throughput (up to <strong>7×</strong> in memory-limited scenarios) without code changes. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/deepcompile/README.md">Blog</a>, <a href="https://arxiv.org/abs/2504.09983">Paper</a>)
           - <strong>DeepSpeed-FastGen</strong> – high-throughput inference serving with integrated batch scheduling; now adopted by vLLM and other systems. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/deepspeed-fastgen/README.md">Blog</a>, <a href="https://arxiv.org/abs/2401.08671">Paper</a>)
           - <strong>DeepSpeed-Ulysses</strong> – sequence-parallel training achieving <strong>2.5×</strong> speed-up on sequences <strong>4×</strong> longer than previous SOTA. (<a href="https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/deepspeed-ulysses/README.md">Blog</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3662158.3662806">Paper</a>)
@@ -87,10 +92,11 @@ projects:
           - WEKDA (WEb-based Knowledge Disseminating dialog Agent)
           - <a href="https://www.youtube.com/watch?v=gCUrC3f9-Go">MICSUS</a> (multimodal interactive care support system)
 conferences:
+  - 'Xinyu Lian, Walid Krichene, Beichen Huang, Masahiro Tanaka, Olatunji Ruwase, Li Zhang and Minjia Zhang, <a href="https://aclanthology.org/2026.emnlp-main.2059/">Quantization Inflates Reasoning: Token Inflation as a Hidden Cost of Low-Bit Reasoning Models</a>, Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), pp. 46880–46894, 2026.'
+  - 'Jinghan Yao, Sam Adé Jacobs, Walid Krichene, Masahiro Tanaka and Dhabaleswar K. Panda, <a href="https://proceedings.mlsys.org/paper_files/paper/2026/hash/7398289396de403d7d0505ed791e704a-Abstract-Conference.html">MAC-Attention: a Match–Amend–Complete Scheme for Fast and Accurate Attention Computation</a>, Proceedings of Machine Learning and Systems (MLSys 2026), vol. 8, pp. 1901–1916, 2026.'
   - "Ahan Gupta, Zhihao Wang, Neel Dani, Masahiro Tanaka, Olatunji Ruwase and Minjia Zhang, AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism, In the Proceedings of the International Conference on Learning Representations (ICLR 2026), 2026."
   - "Xinyu Lian, Masahiro Tanaka, Olatunji Ruwase and Minjia Zhang, SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips, In the Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2026), 2026."
   - "Xinyu Lian, Sam Ade Jacobs, Lev Kurilenko, Masahiro Tanaka, Stas Bekman, Olatunji Ruwase and Minjia Zhang, Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism, Proceedings of the 2025 USENIX Annual Technical Conference (USENIX ATC '25), 2025."
-  - "Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Masahiro Tanaka, Olatunji Ruwase, Dong Li and Yue Cheng, ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates, arXiv preprint arXiv:2505.12242, 2025."
   - "Masahiro Tanaka, Du Li, Umesh Chand, Ali Zafar, Haiying Shen and Olatunji Ruwase, DeepCompile: A Compiler-Driven Approach to Optimizing Distributed Deep Learning Training, arXiv preprint arXiv:2504.09983, 2025."
   - "Haiying Shen, Tanmoy Sen, Masahiro Tanaka, Mitigating KV Cache Competition to Enhance User Experience in LLM Inference, arXiv preprint arXiv:2503.13773, 2025."
   - "Liyuan Liu, Young Jin Kim, Shuohang Wang, Chen Liang, Yelong Shen, Hao Cheng, Xiaodong Liu, Masahiro Tanaka, Xiaoxia Wu and Wenxiang Hu, GRIN: Gradient-Informed MoE, arXiv preprint arXiv:2409.12136, 2024."
@@ -132,6 +138,7 @@ conferences:
   - "Satoshi Sakai, Masaki Gotou, Masahiro Tanaka, Rieko Inaba, Yohei Murakami, Takashi Yoshino, Yoshihiko Hayashi, Yasuhiko Kitamura, Yumiko Mori, Toshiyuki Takasaki, Yoshie Naya, Aguri Shige––no, Shigeo Matsubara and Toru Ishida. Language Grid Association: Action Research on Supporting the Multicultural Society. <i>International   Conference on Informatics Education and Research for Knowledge-Circulating Society (ICKS-08)</i>, pp. 55-60, 2008."
   - "Masahiro Tanaka and Toru Ishida. Ontology Extraction from Tables on the Web. <i>IEEE/IPSJ Symposium on Applications and the Internet (SAINT-06)</i>, pp.284-290, 2006."
 journals:
+  - 'Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Masahiro Tanaka, Olatunji Ruwase, Dong Li and Yue Cheng, <a href="https://doi.org/10.1145/3837130">ZenFlow: Enabling Stall-Free Offloading for LLM Training</a>, Proceedings of the ACM on Management of Data, vol. 4, no. 4 (SIGMOD), article 292, pp. 1–28, 2026.'
   - Masahiro Tanaka and Yohei Murakami, Strategy-proof Pricing for Cloud Service Composition, IEEE Transactions on Cloud Computing, Vol. 4, No. 3, pp. 363-375, 2016.
   - Donghui Lin, Toru Ishida, Yohei Murakami and Masahiro Tanaka, "QoS Analysis for Service Composition by Human and Web Services," IEICE Transactions on Information and Systems, Vol.E97-D, No.4, pp.762-769, 2014.
   - Donghui Lin, Yohei Murakami and Masahiro Tanaka, &quot;Designing Dynamic Control Mechanisms for Service Invocation,&quot; Journal of Information Processing, Vol.19, pp.52-61, Feb. 2011.
